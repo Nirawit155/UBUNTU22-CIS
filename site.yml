@@ -6,7 +6,3 @@
   roles:
 
     - role: "{{ playbook_dir }}"
-      when:
-        - ansible_host is defined
-        - ansible_user is defined
-        - ansible_password is defined
